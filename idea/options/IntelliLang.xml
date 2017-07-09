@@ -1,0 +1,49 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="SQL" injector-id="java">
+      <display-name>Db (com.jfinal.plugin.activerecord)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batch").withParameters("java.lang.String", "java.lang.Object[][]", "int").definedInClass("com.jfinal.plugin.activerecord.Db"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batch").withParameters("java.lang.String", "java.lang.String", "java.util.List", "int").definedInClass("com.jfinal.plugin.activerecord.Db"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryNumber").withParameters("java.lang.String").definedInClass("com.jfinal.plugin.activerecord.Db"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryNumber").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.jfinal.plugin.activerecord.Db"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").withParameters("java.lang.String").definedInClass("com.jfinal.plugin.activerecord.Db"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.jfinal.plugin.activerecord.Db"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Db (jfinal.activerecord)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batch").withParameters("java.lang.String", "java.lang.String", "java.util.List", "int").definedInClass("jfinal.activerecord.Db"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").withParameters("java.lang.String").definedInClass("jfinal.activerecord.Db"))]]></place>
+    </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>HibernateTemplate (org.springframework.orm.hibernate4)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "java.lang.Object...").definedInClass("org.springframework.orm.hibernate4.HibernateTemplate"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findByNamedParam").withParameters("java.lang.String", "java.lang.String", "java.lang.Object").definedInClass("org.springframework.orm.hibernate4.HibernateTemplate"))]]></place>
+    </injection>
+    <injection language="MySQL" injector-id="java">
+      <display-name>Model (com.jfinal.plugin.activerecord)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("com.jfinal.plugin.activerecord.Model"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.jfinal.plugin.activerecord.Model"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Model (com.jfinal.plugin.activerecord)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findFirst").withParameters("java.lang.String").definedInClass("com.jfinal.plugin.activerecord.Model"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findFirst").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.jfinal.plugin.activerecord.Model"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Model (jfinal.activerecord)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("jfinal.activerecord.Model"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "java.lang.Object...").definedInClass("jfinal.activerecord.Model"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findFirst").withParameters("java.lang.String").definedInClass("jfinal.activerecord.Model"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("findFirst").withParameters("java.lang.String", "java.lang.Object...").definedInClass("jfinal.activerecord.Model"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="xml">
+      <display-name>sql</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("sql"))]]></place>
+    </injection>
+  </component>
+</application>
