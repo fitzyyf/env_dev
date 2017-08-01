@@ -1,0 +1,32 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project and Libraries" />
+    <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.js" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.jsp</mask>
+      <mask>*.js,*.jsp</mask>
+      <mask>*.js,*.ftl</mask>
+      <mask>*.ftl</mask>
+      <mask>*.ja</mask>
+      <mask>*.jav</mask>
+      <mask>*.java</mask>
+      <mask>*.css</mask>
+      <mask>*.cs</mask>
+      <mask>*.c</mask>
+      <mask>*.xnk</mask>
+      <mask>*.xn</mask>
+      <mask>*.xm</mask>
+      <mask>*.xml</mask>
+      <mask>*.x</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+    </recentFileMasks>
+  </component>
+</application>
