@@ -1,13 +1,17 @@
 <profile version="1.0">
-  <option name="myName" value="Mba" />
+  <option name="myName" value="TeamInsp" />
+  <inspection_tool class="AmdModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="FtlReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="myValues">
       <value>
-        <list size="2">
+        <list size="5">
           <item index="0" class="java.lang.String" itemvalue="plain" />
           <item index="1" class="java.lang.String" itemvalue="icon" />
+          <item index="2" class="java.lang.String" itemvalue="lay-filter" />
+          <item index="3" class="java.lang.String" itemvalue="lay-event" />
+          <item index="4" class="java.lang.String" itemvalue="data-options" />
         </list>
       </value>
     </option>
@@ -30,6 +34,7 @@
     <option name="myCustomValuesEnabled" value="true" />
   </inspection_tool>
   <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="TOP_LEVEL_CLASS_OPTIONS">
       <value>
@@ -59,7 +64,7 @@
     <option name="IGNORE_JAVADOC_PERIOD" value="true" />
     <option name="IGNORE_DUPLICATED_THROWS" value="false" />
     <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-    <option name="myAdditionalJavadocTags" value="api,apiName,apiGroup,apiParam,apiSuccess,apiSuccessExample,apiError,apiErrorExample,apiVersion,apiDescription,mbggenerated,apiHeader,apiHeaderExample,mbg.generated" />
+    <option name="myAdditionalJavadocTags" value="api,apiName,apiGroup,apiParam,apiSuccess,apiSuccessExample,apiError,apiErrorExample,apiVersion,apiDescription,mbggenerated,apiHeader,apiHeaderExample,mbg.generated,date" />
   </inspection_tool>
   <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreAnonymousInnerClasses" value="false" />

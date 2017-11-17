@@ -31,7 +31,9 @@ SOGYF 开发环境配置
 
 ### Idea Java 编码设置
 
-将 本仓库中的 `./idea/idea_config` 目录 拷贝到指定的目录，具体如下
+> Android Studio 的设置方法如下，只是对应配置目录为 `./idea/as_config`
+
+1. 将 本仓库中的 `./idea/idea_config` 目录 拷贝到指定的目录，具体如下
 
 * Windows: <code>~\\.IntelliJIdeaXX\config</code>
 * Linux: <code>~/.IntelliJIdeaXX/config</code>
@@ -57,3 +59,80 @@ SOGYF 开发环境配置
     ├── templates            <--- 替换这个目录
     └── trp
 
+2. 覆盖导入完成后，打开Intellij，进行设置
+
+    * 在 `设置` 中找到 `Editor > Code Style`选择 `GoogleStyle`
+    * 在 `设置` 中找到 `Editor > Inspections`选择 `TeamInsp`
+
+3. 安装 必要插件
+
+    * 安装 `Alibaba Java Coding Guidelines` 插件
+    * 安装 `Lombok Plugin` 插件
+
+
+
+### live tempalte 的一些指令
+
+#### Java
+
+-- **`$log`**: "New SLF4J logger"
+-- **`$logd`**: "SLF4J debug log"
+-- **`$loge`**: "SLF4J error log"
+-- **`$logi`**: "SLF4J info log"
+-- **`$logw`**: "SLF4J warning log"
+-- **`$meth`**: "New method"
+-- **`prf`**: "private final"
+-- **`prfi`**: "private final int"
+-- **`prfs`**: "private final String"
+-- **`.average`**: "Stream#collect(averageLong(toLong))"
+-- **`.groupBy`**: "Stream#collect(groupingBy(e -> e.getKey()))"
+-- **`.join`**: "Stream#collect(joining("separator"))"
+-- **`.maxBy`**: "Stream#collect(maxBy(comparator))"
+-- **`.minBy`**: "Stream#collect(maxBy(comparator))"
+-- **`.partitionBy`**: "Stream#collect(partitionBy(pred)))"
+-- **`.reduce`**: "Stream#collect(reduce(binaryReducer))"
+-- **`.sum`**: "Stream#collect(summingLong(toLong)))"
+-- **`.toList`**: "Stream#collect(toList())"
+-- **`.toMap`**: "Stream#collect(toMap(keyMapper, valueMapper)"
+-- **`.toSet`**: "Stream#collect(toSet())"
+
+#### android
+
+- **`temp_classtag`**: "A static logtag with your current classname"
+- **`temp_const_boolean`**: "private static final boolean"
+- **`temp_const_int`**: "private static final int"
+- **`temp_const_long`**: "private static final long"
+- **`temp_const_string`**: "private static final String"
+- **`temp_find_button`**: "findViewById Button"
+- **`temp_find_edit`**: "findViewById EditText"
+- **`temp_find_image`**: "findViewById ImageView"
+- **`temp_find_list`**: "findViewById ListView"
+- **`temp_find_progress`**: "findViewById ProgressBar"
+- **`temp_find_text`**: "findViewById TextView"
+- **`temp_foreach`**: "Create a for each loop"
+- **`temp_handler`**: "Create a new handler object"
+- **`temp_handlerpost`**: "Implement handler post method"
+- **`temp_inflate`**: "Create layoutinflater and inflate view"
+- **`temp_logd`**: "Send a DEBUG log message"
+- **`temp_loge`**: "Send an Error log message"
+- **`temp_logi`**: "Send an INFO log message"
+- **`temp_logv`**: "Send a VERBOSE log message"
+- **`temp_logw`**: "Send a WARN log message"
+- **`temp_new_activity`**: "Start a new activity"
+- **`temp_parcelable`**: "Create a parcelable block for your current class"
+- **`temp_path_assets`**: "Assets directory path"
+- **`temp_psf`**: "private static final variable with type and member"
+- **`temp_psfb`**: "private static final boolean"
+- **`temp_psfi`**: "private static final int"
+- **`temp_psfs`**: "private static final String"
+- **`temp_res_drawable`**: "resources.getDrawable(...)"
+- **`temp_res_string`**: "resources.getString(...)"
+- **`temp_res_color`**: "resources.getColor(...)"
+- **`temp_runui`**: "runOnUIThread"
+- **`temp_toast`**: "Create a new Toast message"
+- **`temp_newinstance`**: "Create a new Fragment instance with arguments"
+- **`temp_key`**: "Key variable for preferences, bundles...
+- **`temp_calendar`**: "Get a current Calendar"
+- **`temp_listener`**: "Observer Design Pattern (Listener)"
+- **`temp_porterduff`**: "A color filter that can be used to tint a drawable"
+- **`temp_attrs`**: "Retrieve XML attributes with style and theme information applied"
