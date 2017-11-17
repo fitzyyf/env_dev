@@ -15,7 +15,7 @@ SOGYF 开发环境配置
 
 2. 修改个人仓库的路径，不建议将本地仓库放到默认位置;
 
-    编辑 `settings.xml` , 调整 `${USER_REPOS}`为指定路径即可。 比如我的设置为 `~/iDev/.repos/`
+    编辑 `settings.xml` , 找到内容 `${USER_REPOS}` 并修改为指定路径即可。 比如我的设置为 `~/iDev/.repos/`
 
 ## Intellij Idea 配置
 
