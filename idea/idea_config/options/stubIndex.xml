@@ -2,10 +2,20 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="java.method.parameter.types" />
+        <option value="java.anonymous.baseref" />
+        <option value="jvm.static.member.type" />
+        <option value="jvm.static.member.name" />
+        <option value="java.method.name" />
+        <option value="java.field.name" />
+        <option value="java.class.extlist" />
+        <option value="java.annotations" />
         <option value="sql.names" />
         <option value="sql.column.name" />
         <option value="sql.table.shortName" />
+        <option value="js.gcl.modules" />
         <option value="js.nonglobal.symbol.index" />
+        <option value="es6.assignment.index" />
         <option value="js.exported.index" />
         <option value="js.global.symbol.index" />
         <option value="amd.requirePaths.index" />
@@ -32,19 +42,12 @@
         <option value="Css.attr" />
         <option value="Css.id" />
         <option value="Css.class" />
+        <option value="Css.ampersand.selector" />
         <option value="dom.elementClass" />
         <option value="dom.namespaceKey" />
         <option value="java.module.name" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />
-        <option value="java.method.parameter.types" />
-        <option value="java.anonymous.baseref" />
-        <option value="jvm.static.member.type" />
-        <option value="jvm.static.member.name" />
-        <option value="java.method.name" />
-        <option value="java.field.name" />
-        <option value="java.class.extlist" />
-        <option value="java.annotations" />
       </list>
     </option>
   </component>

@@ -1,0 +1,27 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Mba">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+</application>

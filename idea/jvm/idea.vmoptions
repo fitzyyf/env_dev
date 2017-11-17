@@ -1,7 +1,6 @@
--Xms2G
--Xmx2G
+-Xms1G
+-Xmx1G
 -server
--XX:MaxPermSize=512m 
 -XX:ReservedCodeCacheSize=240m
 -XX:+UseCompressedOops
 -Dfile.encoding=UTF-8

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/settings/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <localRepository>${USER_REPOS}</localRepository>
+<pluginGroups></pluginGroups>
+
+<proxies>
+    <!-- 使用代理上网
+        <proxy>
+    <id>optional</id>
+    <active>true</active>
+    <protocol>http</protocol>
+    <username></username>
+    <password></password>
+    <host>127.0.0.1</host>
+    <port>8087</port>
+    <nonProxyHosts>localhost|127.0.0.1</nonProxyHosts>
+</proxy>
+-->
+</proxies>
+
+<servers></servers>
+
+<mirrors>
+<!-- 设置阿里云的仓库来替换中心仓库，注意 mirrofOf 不要设置为 *  -->
+<mirror>
+    <id>aliyun</id>
+    <mirrorOf>central</mirrorOf>
+    <name>aliyun Maven or this Mirror.</name>
+    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    <layout>default</layout>
+</mirror>
+</mirrors>
+
+<profiles></profiles>
+</settings>

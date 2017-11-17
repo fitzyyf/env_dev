@@ -21,7 +21,6 @@ Jetty
 OpenShift
 Osmorc
 PerforceDirectPlugin
-Refactor-X
 Resin
 StrutsAssistant
 Subversion
@@ -56,8 +55,6 @@ com.intellij.play
 com.intellij.seam
 com.intellij.seam.pageflow
 com.intellij.seam.pages
-com.intellij.spring.batch
-com.intellij.spring.integration
 com.intellij.spring.osgi
 com.intellij.spring.security
 com.intellij.spring.webflow
@@ -80,15 +77,12 @@ cucumber-java
 gherkin
 hg4idea
 org.coffeescript
-org.editorconfig.editorconfigjetbrains
 org.intellij.grails
-org.intellij.groovy
+org.intellij.plugins.markdown
 org.jetbrains.android
 org.jetbrains.idea.eclipse
 org.jetbrains.java.decompiler
-org.jetbrains.kotlin
 org.jetbrains.plugins.github
-org.jetbrains.plugins.gradle
 org.jetbrains.plugins.haml
 org.jetbrains.plugins.javaFX
 org.jetbrains.plugins.less
@@ -96,6 +90,5 @@ org.jetbrains.plugins.remote-run
 org.jetbrains.plugins.sass
 org.jetbrains.plugins.stylus
 org.jetbrains.plugins.terminal
-org.jetbrains.settingsRepository
 spy-js
 tslint
