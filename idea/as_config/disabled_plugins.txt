@@ -1,0 +1,16 @@
+CVS
+Subversion
+com.android.tools.games
+com.google.appindexing
+com.google.cluestick.studioclient
+com.google.gct
+com.google.gct.core
+com.google.gct.login
+com.google.gct.testing
+com.google.services
+com.google.services.firebase
+com.google.urlassistant
+hg4idea
+org.jetbrains.plugins.github
+org.jetbrains.plugins.terminal
+org.jetbrains.settingsRepository
